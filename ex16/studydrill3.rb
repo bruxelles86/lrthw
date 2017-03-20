@@ -8,7 +8,7 @@ $stdin.gets
 
 puts "Opening the file..."
 # this opens the file as an object and assigns it to the variable target
-target = open(filename, 'w')
+target = open(filename)
 
 puts "Truncating the file.  Goodbye!"
 target.truncate(0)
