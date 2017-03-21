@@ -102,6 +102,10 @@ require - loads a function/method from another ruby file found within Ruby's $LO
 <<XXX - a 'heredoc' which creates a multi-line string (XXX can be any upper-case word), until the word is repeated again. e.g. <<<END and END.
 Stores the string like a variable, and can be called later on.
 
+.shift - returns first item of array and removes it
+
+,pop - returns last item of array and removes it
+
 
 %{} - not sure, something to do with formatting (ex8)
 
