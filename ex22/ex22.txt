@@ -1,4 +1,4 @@
-puts - put a string, and add a newline at end of output
+puts - put a string, and add a newline at end of output. 
 
 print - put a string, without any newline
 
@@ -98,6 +98,9 @@ def - to create a method/function (must have 'end' when finished)
 return - sets variables to a value from a function/method
 
 require - loads a function/method from another ruby file found within Ruby's $LOAD_PATH. Can then be called directly as if in the first
+
+<<XXX - a 'heredoc' which creates a multi-line string (XXX can be any upper-case word), until the word is repeated again. e.g. <<<END and END.
+Stores the string like a variable, and can be called later on.
 
 
 %{} - not sure, something to do with formatting (ex8)
