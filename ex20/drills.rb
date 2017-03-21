@@ -35,10 +35,11 @@ puts "Let's print three lines:"
 # Now the file is at line 1, this function/method puts its contents as a string, one line at a time. A separate variable counts the lines.
 
 current_line = 1
+
+until current_line == 4
+
 print_a_line(current_line, current_file)
 
-current_line = current_line + 1
-print_a_line(current_line, current_file)
+current_line += 1
 
-current_line = current_line + 1
-print_a_line(current_line, current_file)
+end
