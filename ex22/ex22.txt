@@ -1,0 +1,108 @@
+puts - put a string, and add a newline at end of output
+
+print - put a string, without any newline
+
+# - octothorpe / hash, creates a comment that won't run as code
+
+ruby - what you write to run a .rb file in the shell
+
++ - plus, adds two objects together
+
+- - minus, subtracts second object from the first one
+
+* - asterisk, multiples two objects together
+
+% - percent, modulo operator, shows remainder after dividing first object by second one
+
+< - less-than (returns true if thing before is smaller than one after)
+
+> - more-than (opposite of above)
+
+<= - less-than-equal (returns true if thing before is smaller or equal to thing after)
+
+>= - more-than-equal (opposite of above)
+
+#{} - used to interpolate (e.g. a variable, calculation) into a string
+
+irb - opens the Ruby shell from the command line
+
+.rb - the suffix of ruby files
+
+= - declares a variable, name on the left, definition on the right
+
+. - in ruby, turns an integer into a float (i.e. 4.0)
+
+" " - surround a string, suports string interpolation
+
+' ' - surround a string, do not support string interpolation (i.e. #{variable} will appear like that, and won't show the variable)
+
+true/false - boolean values
+
+%q() - does double quotation marks, NB. the () can be replaced with any non-alphanumeric character, e.g. !! [] 
+
+\n - string escape that inserts a new line
+
+\' - escape to insert a single quote
+
+\" - escape to insert a double quote
+
+""" or ''' (followed by """ or ''') - for multi-line strings
+
+\t - escapes to insert a horizontal tab
+
+\\ - escape to insert a backslash
+
+\a - escape which 'alerts' the user (e.g. through a beep)
+
+\b	- escape to do a backspace (i.e. deleting the character in front)
+
+\f	- rare. ejects printer paper to start from top of a new page.
+
+\r - carriage return. Puts stuff after it before the stuff in front of it. i.e. puts "   bbb\raaa" comes out as "aaabbb"
+
+\v - vertical tab. Does a new line and then a tab
+
+gets - get string from the user and creates a new line (from their 'enter')
+
+.chomp - method to cut the \n new line off the user input
+
+$stdin.gets.chomp - way for getting user input that works with ARGV
+
+.to_i - method for converting an object into an integer
+
+.to_f - method for converting an object into a float
+
+ARGV - argument variable, which takes argument from the command line when the programme is run, and passes it to the Ruby script. 
+e.g. either first, second = ARGV, or ARGV.first
+
+open(filename) - opens the named file object. Also needs 'w' as an extra parameter or in order to have write permission
+
+.read - reads through the file
+
+close() - closes the file between the brackets
+
+readline - reads one line of a text file
+
+truncate - empties a file
+
+write('stuff') - writes 'stuff to the file
+
+File.exist?(filename) - returns boolean for whether 'filename' exists
+
+.seek() - rewinds a file back to the beginning, to byte 0
+
+def - to create a method/function (must have 'end' when finished)
+
++= - contraction meaning x = x + y
+
+return - sets variables to a value from a function/method
+
+
+
+%{} - not sure, something to do with formatting (ex8)
+
+\uxxxx	- "Character with 16-bit hex value xxxx (Unicode only)". Not sure.
+
+\ooo - "Character with octal value ooo". Not sure.
+
+\xhh - "Character with hex value hh". Not sure.
