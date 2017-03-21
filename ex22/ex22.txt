@@ -97,6 +97,7 @@ def - to create a method/function (must have 'end' when finished)
 
 return - sets variables to a value from a function/method
 
+require - loads a function/method from another ruby file found within Ruby's $LOAD_PATH. Can then be called directly as if in the first
 
 
 %{} - not sure, something to do with formatting (ex8)
