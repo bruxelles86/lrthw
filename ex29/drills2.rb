@@ -1,4 +1,4 @@
-people = 20
+people = 100
 cats = 30
 dogs = 15
 
