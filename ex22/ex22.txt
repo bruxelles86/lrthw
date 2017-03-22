@@ -104,7 +104,14 @@ Stores the string like a variable, and can be called later on.
 
 .shift - returns first item of array and removes it
 
-,pop - returns last item of array and removes it
+.pop - returns last item of array and removes it
+
+.push or << - adds to the end of an array. (fruits << x is the same as fruits.push(x))
+
+.. - range operator for inclusive range (i.e. 0..5 means 0 to 5, including both 0 and 5)
+
+... - range operator, excluding the higher value (i.e. 0...5 means 0 to 4)
+
 
 
 %{} - not sure, something to do with formatting (ex8)
