@@ -1,13 +1,11 @@
-i = 0
 numbers = []
 
-while i < 6
-    puts "At the top i is #{i}"
-    numbers.push(i)
+for num in 0..6 
+    puts "At the top i is #{num}"
+    numbers.push(num)
     
-    i += 1
     puts "Numbers now: ", numbers
-    puts "At the bottom i is #{i}"
+    puts "At the bottom i is #{num}"
 end
 
 puts "The numbers: "
