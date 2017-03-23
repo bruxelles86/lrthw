@@ -116,6 +116,59 @@ exit(0) - quits the program. the (0) lets it quit without error, but exit(1) wil
 
 =~ - does pattern matching. i.e. if a_variable =~ /Hello|my|name|is/  will evaluate as true if the variable contains those words
 
+BEGIN - runs block between curly brackets when program begins i.e. BEGIN { puts "blah" }
+
+END - as above, but when program ends.
+
+alias - lets you give a second name to a method. THis syntax alias newname oldname
+
+break - break out of a loop right now
+
+case - a bit like an if...  You use this syntax: case condition 
+                                                when x, y (whihc means if x or y = condition)
+                                                z (do z)
+                                                else 
+                                                q (do q)
+                                                end
+
+class - define a new class
+
+module - define a new module. These create definitions that can be used in different classes (if they use 'include' to add the module) 
+
+next - skip to next item in .each iterator
+
+redo - rerun block of code in the same way - specifically the current bit being iterated overall
+
+retry - reruns an entire iteration from the start.
+
+defined? - checks if class, function, etc already defined. 
+
+begin - starts a block for exceptions (i.e. what to do if program crashes/gets an error and will otherwise quit)
+
+rescue - under this, you put the code that hopefully does something clever to fix the exception
+
+end - this goes at the end of the exception code block. So the overall syntax is:
+
+ensure - some code that will execute regardless of the success or failure of the rescue from the exception
+
+self - the current object, class or module
+
+super - the parent class of this class
+
+then - optional use with 'if' (if xyz then xyz)
+
+undef - remove functin from a class
+
+yield - pause and transfer control to code block
+
+=== - evaluates as true if the thing on the right is a member of the class on the left
+
+@ - object scope
+
+@@ - class scope
+
+$ - global scope
+
 
 %{} - not sure, something to do with formatting (ex8)
 
