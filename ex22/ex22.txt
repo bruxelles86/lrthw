@@ -104,9 +104,11 @@ Stores the string like a variable, and can be called later on.
 
 .shift - returns first item of array and removes it
 
-.pop - returns last item of array and removes it
+.pop(n) - returns last item of array and removes it (or more than one, if n is a number)
 
 .push or << - adds to the end of an array. (fruits << x is the same as fruits.push(x))
+
+.join() - returns a string from an array - either with all the elements joined up, or with the thing in the brackets between them (e.g. " ")
 
 .. - range operator for inclusive range (i.e. 0..5 means 0 to 5, including both 0 and 5)
 
@@ -168,6 +170,8 @@ yield - pause and transfer control to code block
 @@ - class scope
 
 $ - global scope
+
+.delete() - function to call on a hash, with the key in brackets, to delete that thing
 
 
 %{} - not sure, something to do with formatting (ex8)
