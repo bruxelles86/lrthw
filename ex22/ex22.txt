@@ -112,6 +112,9 @@ Stores the string like a variable, and can be called later on.
 
 ... - range operator, excluding the higher value (i.e. 0...5 means 0 to 4)
 
+exit(0) - quits the program. the (0) lets it quit without error, but exit(1) will give an error. Many other error messages available.
+
+=~ - does pattern matching. i.e. if a_variable =~ /Hello|my|name|is/  will evaluate as true if the variable contains those words
 
 
 %{} - not sure, something to do with formatting (ex8)
